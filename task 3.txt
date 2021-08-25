@@ -1,0 +1,149 @@
+Create your own resume data in JSON format:
+
+
+var resume= {
+  basics:{
+    name: "N.shyamsundar",
+    Email:"shyam@gmail.com", 
+    contact:"12345678",
+    Degree:"B.E Civil engineering",
+  }, 
+  education:{
+    "10th grade": "ssrv",
+    percentage: "94%", 
+    "12th grade": "ssrv",
+    percentage: "73%", 
+    undergraduate: "MSEC",
+    GPA: "7.0", 
+   }, 
+  location:{
+    Address: "23/11 brinda flats west mambalam",
+    city: "chennai",
+    postalcode:"600033",
+    region: "TAMILNADU",
+    Country: "india",
+ 
+  }, 
+ 
+};
+console.log(resume);
+
+
+For loop:
+// for loop:
+
+var obj = [
+    {
+      name: "shyam",
+      empid: "E123",
+      email: "j@gmail.com",
+      age: "35",
+      salary: "1000$",
+      address: "Chennai",
+    },
+    {
+      name: "raam",
+      empid: "B123",
+      email: "B@gmail.com",
+      age: "15",
+      salary: "2000$",
+      address: "Delhi",
+    },
+    {
+      name: "deepan",
+      empid: "P123",
+      email: "M@gmail.com",
+      age: "15",
+      salary: "7000$",
+      address: "Mumbai",
+    },
+  ];
+
+  for(i=0;i<obj.length;i++)
+  {
+      console.log(obj[i].salary);
+  }
+
+
+FOR OF AND FOR IN:
+
+// for of and for in loop:
+
+var obj = [
+    {
+      name: "John",
+      empid: "E123",
+      email: "j@gmail.com",
+      age: "35",
+      salary: "1000$",
+      address: "Chennai",
+    },
+    {
+      name: "kohn",
+      empid: "B123",
+      email: "B@gmail.com",
+      age: "15",
+      salary: "2000$",
+      address: "Delhi",
+    },
+    {
+      name: "mohn",
+      empid: "P123",
+      email: "M@gmail.com",
+      age: "15",
+      salary: "7000$",
+      address: "Mumbai",
+    },
+  ];
+
+  for(let x of obj)
+  {
+      
+for(let key in x)  
+      {
+          console.log(x[key]);
+      }
+  }
+
+
+FOR EACH:
+
+// for each loop:
+
+var obj = {
+  1: {
+    name: "shyam",
+    empid: "124",
+    email: "shyam@gmail.com",
+    age: "23",
+    salary: "6000$",
+  },
+  2: {
+    name: "raam",
+    empid: "224",
+    email: "raam@gmail.com",
+    age: "",
+    salary: "6500$",
+  },
+  3: {
+    name: "deepan",
+    empid: "424",
+    email: "deepan@gmail.com",
+    age: "14",
+    salary: "7000$",
+  },
+  4: {
+    name: "Talam",
+    empid: "1124",
+    email: "talam@gmail.com",
+    age: "48",
+    salary: "9000$",
+  },
+};
+
+
+ Object.keys(obj).forEach(function () {
+  console.log(obj);
+ });
+
+
